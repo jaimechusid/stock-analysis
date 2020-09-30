@@ -39,12 +39,19 @@ In 2018, most stocks in the analysis did not perform as well. Only ENPH and RUN 
 ![2018 Stock Analysis](2018_Stocks.png)
 
 ### Recommendation for Steve's Parents
-which stocks to invest in..
+Taking into account the stock returns for both 2017 and 2018, I would recommend Steve's parents diversify their investments and invest in both ENPH and RUN. While both stocks generated positive returns in both years, ENPH has decreased and RUN has increased. Therefore, I would recommend investing more in RUN than ENPH, but it is always a good idea to diversify their portfolio and not put all their money in one stock.
 
 ## Summary
 
 ### Refactoring Code in General
-advantages and disadvantages 
+Refactoring code is advantageous when working with large data sets, as it helps to decrease runtime and increase efficiency. It also makes code more simplified and less repetitive, which is helpful for both the developer themself and anyone who may be reading or editing the code. Refactored code is easier to add to as well, as the code is more cohesive. While refactoring code has many advantages for all parties involved, it can be difficult and time consuming to do. If a developer is trying to find a solution to a problem, efficiency is usually not the first priority. It is easier to solve the problem first, making sure everything works correctly, before trying to refactor the solution, which would add a lot more time to the process. In some cases, it could be costly to refactor code as well.
 
 ### Refactoring the Stock Analysis VBA Script
-advantages and disadvantages
+In the case of this project, refactoring code had both advantages and disadvantages. First, it improved code efficiency and length, condensing several for loops into one that was able to complete all the tasks at hand. Second, it improved runtime of the program while still achieving the same accurate results. Because the datasets were on the smaller side, the difference is not as noticeable to user, as it is a fraction of a second with and without refactoring. I attached screenshots of the runtimes before and after refactoring the code.
+Before: 
+![2017 Before](2017_before.png) ![2018 Before](2018_before.png)
+
+After:
+![2017 After](VBA_Challenge_2017.png) ![2018 After](VBA_Challenge_2018.png)
+
+Disadvantages to refactoring the code in this case include time consumption, and having to rewrite a lot of the code. I've coded using arrays several times, so I was able to understand what was going on, but for someone who has never coded before, trying to keep track of all 4 arrays at the same time could be extremely confusing. Additionally, refactoring the code took a lot of time, because I had to essentially rewrite the entire program. However, I believe the advantages outweigh the disadvantages and that refactoring code is definitely worth doing when possible. 

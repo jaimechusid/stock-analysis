@@ -8,10 +8,12 @@ The purpose of this project is to help Steve create a stock analysis tool that h
 ## Results
 
 ### Analyzing Stock Performance in 2017
-include screenshots of results 
+In 2017, all analyzed stocks had positive returns except TERP, which had a return of -7.21%. The stocks that generated the highest returns this year were DQ, ENPH, and SEDG. The full analysis is shown below, visualizing the total daily volume and returns for each stock. 
+![2017 Stock Analysis](VBA_Challenge_2017.png)
 
 ### Analyzing Stock Performance in 2018
-include screenshots of results
+In 2018, most stocks in the analysis did not perform as well. Only ENPH and RUN generated positive returns, and the remainder of the stocks dropped dramatically. While DQ performed exceptionally well in 2017, fueling Steve's parents' initial investment decision, it plummeted in 2018 and would no longer be the best investment choice. The full results are shown below.
+![2018 Stock Analysis](VBA_Challenge_2018.png)
 
 ### Recommendation for Steve's Parents
 which stocks to invest in

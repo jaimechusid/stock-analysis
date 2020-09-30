@@ -16,7 +16,7 @@ In 2018, most stocks in the analysis did not perform as well. Only ENPH and RUN 
 ![2018 Stock Analysis](2018_Stocks.png)
 
 ### Recommendation for Steve's Parents
-which stocks to invest in
+which stocks to invest in..
 
 ## Summary
 

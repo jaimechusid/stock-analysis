@@ -7,6 +7,30 @@ The purpose of this project is to help Steve create a stock analysis tool that h
 
 ## Results
 
+### VBA Analysis
+To perform this stock analysis, I used VBA in Excel to iterate through all the rows of the stock data, depending on the year specified by the user. To calculate total daily volume and return for each stock, I used for loops and conditionals (if/else statements) to get each total volume, starting price, and ending price. In the refactored code, this was done using different arrays where each stock had a corresponding index. The for loop used to do this analysis is shown below:
+'''   
+    For i = 2 To RowCount
+
+        tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
+        
+        If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i - 1, 1).Value <> tickers(tickerIndex) Then
+        
+            tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
+
+        End If
+       
+        If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
+        
+            tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
+            tickerIndex = tickerIndex + 1
+
+        End If
+    
+    Next i
+'''
+
+
 ### Analyzing Stock Performance in 2017
 In 2017, all analyzed stocks had positive returns except TERP, which had a return of -7.21%. The stocks that generated the highest returns this year were DQ, ENPH, and SEDG. The full analysis is shown below, visualizing the total daily volume and returns for each stock. 
 ![2017 Stock Analysis](2017_Stocks.png)
